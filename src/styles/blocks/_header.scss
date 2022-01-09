@@ -1,0 +1,15 @@
+.header {
+  background-color: #333333;
+  color: $color-light;
+}
+
+.header-inner {
+  padding: 26px 0;
+  background-color: $color-dark;
+  @include container;
+}
+
+.header-wrap {
+  display: flex;
+  align-items: center;
+}
